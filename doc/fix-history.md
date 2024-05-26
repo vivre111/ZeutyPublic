@@ -1,3 +1,7 @@
+
+# Branch Management Instructions
+
+```bash
 # Switch to the main branch
 git checkout main
 
@@ -33,6 +37,7 @@ git pull
 
 # Verify that Zeuty/components/Verify no longer exists
 ls Zeuty/components/Verify
+
 # Switch to the verify branch
 git checkout verify
 
@@ -49,3 +54,4 @@ git commit -m "Add verify component"
 git push
 
 # Create a pull request on GitHub (this step requires manual intervention on GitHub)
+```
